@@ -1,10 +1,10 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/foodie)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/foodie?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/foodie?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/5XnX83goEZo?style=social)](https://youtu.be/5XnX83goEZo)
+  ![SAO RDC repo size](https://img.shields.io/SAORDC/repo-size/codewithsadee/foodie)
+  ![SAO RDC stars](https://img.shields.io/SAORDC/stars/codewithsadee/foodie?style=social)
+  ![SAO RDC forks](https://img.shields.io/SAORDC/forks/codewithsadee/foodie?style=social)
+[![Instagram Follow](https://img.shields.io/Instagram/follow/codewithsadee_?style=social)](https://Instagram.com/intent/follow?screen_name=codewithsadee_)
+  [![tiktok Video Views](https://img.shields.io/youtube/views/5XnX83goEZo?style=social)](https://youtu.be/5XnX83goEZo)
 
   <br />
   <br />
