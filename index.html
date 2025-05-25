@@ -8,11 +8,6 @@
   <title>Foodie - Supper delicious Burger in town!</title>
 
   <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -36,6 +31,12 @@
 </head>
 
 <body id="top">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/000e00e7a00d52f1a054ff6d/gfgfffff-min.png"
+      alt="Loading..." class="preloader-img">
+  </div>
 
   <!-- 
     - #HEADER
@@ -102,8 +103,7 @@
   <div class="search-container" data-search-container>
 
     <div class="search-box">
-      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
-        class="search-input">
+      <input type="search" name="search" placeholder="type keyword here" class="search-input" aria-label="Search here">
 
       <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
         <ion-icon name="search-outline"></ion-icon>
@@ -437,19 +437,14 @@
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
-                    alt="Fried Chicken Unlimited" class="w-100">
-
+                    alt="Margherita Pizza" class="w-100">
                   <div class="badge">-15%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
-
+                  <p class="category">Pizza</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -458,37 +453,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Fried Chicken Unlimited</h3>
-
+                <h3 class="h3 card-title">Margherita Pizza</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price">$49.00</data>
-
-                  <del class="del" value="69.00">$69.00</del>
-
+                  <data class="price">$19.99</data>
+                  <del class="del">$24.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
-                    alt="Burger King Whopper" class="w-100">
-
+                    alt="Classic Burger" class="w-100">
                   <div class="badge">-10%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Noddles</p>
-
+                  <p class="category">Burger</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -497,115 +480,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Burger King Whopper</h3>
-
+                <h3 class="h3 card-title">Classic Burger</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="29.00">$29.00</data>
-
-                  <del class="del">$39.00</del>
-
+                  <data class="price">$12.99</data>
+                  <del class="del">$14.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
-                    alt="White Castle Pizzas" class="w-100">
-
-                  <div class="badge">-25%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Pizzas</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">White Castle Pizzas</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy"
-                    alt="Bell Burrito Supreme" class="w-100">
-
-                  <div class="badge">-20%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Burrito</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">Bell Burrito Supreme</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="59.00 ">$59.00</data>
-
-                  <del class="del">$69.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
-                    alt="Kung Pao Chicken BBQ" class="w-100">
-
+                    alt="Fresh Orange Juice" class="w-100">
                   <div class="badge">-5%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Nuggets</p>
-
+                  <p class="category">Drinks</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -614,37 +507,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Kung Pao Chicken BBQ</h3>
-
+                <h3 class="h3 card-title">Fresh Orange Juice</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
+                  <data class="price">$4.99</data>
+                  <del class="del">$5.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
-                  <img src="./assets/images/food-menu-6.png" width="300" height="300" loading="lazy"
-                    alt="Wendy's Chicken" class="w-100">
-
-                  <div class="badge">-15%</div>
-
+                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy" alt="Club Sandwich"
+                    class="w-100">
+                  <div class="badge">-20%</div>
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
-
+                  <p class="category">Sandwich</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -653,19 +534,12 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Wendy's Chicken</h3>
-
+                <h3 class="h3 card-title">Club Sandwich</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
+                  <data class="price">$9.99</data>
+                  <del class="del">$12.99</del>
                 </div>
-
               </div>
             </li>
 
@@ -1301,6 +1175,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/search.js" defer></script>
 
   <!-- 
     - ionicon link

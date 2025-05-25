@@ -1,6 +1,22 @@
 'use strict';
 
+/**
+ * preloader
+ */
 
+window.addEventListener('load', () => {
+  const preloader = document.querySelector('.preloader');
+  if (preloader) {
+    // Add fade-out class after a short delay
+    setTimeout(() => {
+      preloader.classList.add('fade-out');
+      // Remove preloader from DOM after animation
+      setTimeout(() => {
+        preloader.remove();
+      }, 500);
+    }, 1000);
+  }
+});
 
 /**
  * navbar toggle
@@ -22,7 +38,51 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
+/**
+ * menu filtering
+ */
 
+const filterButtons = document.querySelectorAll('.filter-btn');
+const menuItems = document.querySelectorAll('.food-menu-card');
+
+filterButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    // Remove active class from all buttons
+    filterButtons.forEach(btn => btn.classList.remove('active'));
+    // Add active class to clicked button
+    button.classList.add('active');
+
+    const filterValue = button.textContent.toLowerCase();
+
+    menuItems.forEach(item => {
+      const category = item.querySelector('.category').textContent.toLowerCase();
+
+      if (filterValue === 'all' || category === filterValue) {
+        item.style.display = 'block';
+        // Add animation
+        item.style.animation = 'fadeIn 0.5s ease-in-out';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+
+// Add animation keyframes
+const style = document.createElement('style');
+style.textContent = `
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+`;
+document.head.appendChild(style);
 
 /**
  * header sticky & back to top
@@ -40,8 +100,6 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
-
-
 
 /**
  * search box toggle
@@ -61,8 +119,6 @@ for (let i = 0; i < searchBoxElems.length; i++) {
   });
 }
 
-
-
 /**
  * move cycle on scroll
  */
@@ -73,7 +129,6 @@ let deliveryBoyMove = -80;
 let lastScrollPos = 0;
 
 window.addEventListener("scroll", function () {
-
   let deliveryBoyTopPos = deliveryBoy.getBoundingClientRect().top;
 
   if (deliveryBoyTopPos < 500 && deliveryBoyTopPos > -250) {
@@ -88,5 +143,4 @@ window.addEventListener("scroll", function () {
     lastScrollPos = activeScrollPos;
     deliveryBoy.style.transform = `translateX(${deliveryBoyMove}px)`;
   }
-
 });
