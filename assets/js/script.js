@@ -144,3 +144,17 @@ window.addEventListener("scroll", function () {
     deliveryBoy.style.transform = `translateX(${deliveryBoyMove}px)`;
   }
 });
+
+// Scroll down arrow functionality
+const scrollDown = document.querySelector('.scroll-down');
+if (scrollDown) {
+  scrollDown.addEventListener('click', () => {
+    const promoSection = document.querySelector('.promo');
+    if (promoSection) {
+      promoSection.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  });
+}
