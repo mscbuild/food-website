@@ -8,11 +8,6 @@
   <title>Foodie - Supper delicious Burger in town!</title>
 
   <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
-
-  <!-- 
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
@@ -36,6 +31,12 @@
 </head>
 
 <body id="top">
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/000e00e7a00d52f1a054ff6d/gfgfffff-min.png"
+      alt="Loading..." class="preloader-img">
+  </div>
 
   <!-- 
     - #HEADER
@@ -102,8 +103,7 @@
   <div class="search-container" data-search-container>
 
     <div class="search-box">
-      <input type="search" name="search" aria-label="Search here" placeholder="Type keywords here..."
-        class="search-input">
+      <input type="search" name="search" placeholder="type keyword here" class="search-input" aria-label="Search here">
 
       <button class="search-submit" aria-label="Submit search" data-search-submit-btn>
         <ion-icon name="search-outline"></ion-icon>
@@ -151,9 +151,14 @@
         </div>
       </section>
 
-
-
-
+      <div class="scroll-down">
+        <div class="scroll-down-arrow">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
 
       <!-- 
         - #PROMO
@@ -437,19 +442,14 @@
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-1.png" width="300" height="300" loading="lazy"
-                    alt="Fried Chicken Unlimited" class="w-100">
-
+                    alt="Margherita Pizza" class="w-100">
                   <div class="badge">-15%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
-
+                  <p class="category">Pizza</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -458,37 +458,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Fried Chicken Unlimited</h3>
-
+                <h3 class="h3 card-title">Margherita Pizza</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price">$49.00</data>
-
-                  <del class="del" value="69.00">$69.00</del>
-
+                  <data class="price">$19.99</data>
+                  <del class="del">$24.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-2.png" width="300" height="300" loading="lazy"
-                    alt="Burger King Whopper" class="w-100">
-
+                    alt="Classic Burger" class="w-100">
                   <div class="badge">-10%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Noddles</p>
-
+                  <p class="category">Burger</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -497,115 +485,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Burger King Whopper</h3>
-
+                <h3 class="h3 card-title">Classic Burger</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="29.00">$29.00</data>
-
-                  <del class="del">$39.00</del>
-
+                  <data class="price">$12.99</data>
+                  <del class="del">$14.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
                   <img src="./assets/images/food-menu-3.png" width="300" height="300" loading="lazy"
-                    alt="White Castle Pizzas" class="w-100">
-
-                  <div class="badge">-25%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Pizzas</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">White Castle Pizzas</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy"
-                    alt="Bell Burrito Supreme" class="w-100">
-
-                  <div class="badge">-20%</div>
-
-                  <button class="btn food-menu-btn">Order Now</button>
-                </div>
-
-                <div class="wrapper">
-                  <p class="category">Burrito</p>
-
-                  <div class="rating-wrapper">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-                </div>
-
-                <h3 class="h3 card-title">Bell Burrito Supreme</h3>
-
-                <div class="price-wrapper">
-
-                  <p class="price-text">Price:</p>
-
-                  <data class="price" value="59.00 ">$59.00</data>
-
-                  <del class="del">$69.00</del>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="food-menu-card">
-
-                <div class="card-banner">
-                  <img src="./assets/images/food-menu-5.png" width="300" height="300" loading="lazy"
-                    alt="Kung Pao Chicken BBQ" class="w-100">
-
+                    alt="Fresh Orange Juice" class="w-100">
                   <div class="badge">-5%</div>
-
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Nuggets</p>
-
+                  <p class="category">Drinks</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -614,37 +512,25 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Kung Pao Chicken BBQ</h3>
-
+                <h3 class="h3 card-title">Fresh Orange Juice</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
+                  <data class="price">$4.99</data>
+                  <del class="del">$5.99</del>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="food-menu-card">
-
                 <div class="card-banner">
-                  <img src="./assets/images/food-menu-6.png" width="300" height="300" loading="lazy"
-                    alt="Wendy's Chicken" class="w-100">
-
-                  <div class="badge">-15%</div>
-
+                  <img src="./assets/images/food-menu-4.png" width="300" height="300" loading="lazy" alt="Club Sandwich"
+                    class="w-100">
+                  <div class="badge">-20%</div>
                   <button class="btn food-menu-btn">Order Now</button>
                 </div>
-
                 <div class="wrapper">
-                  <p class="category">Chicken</p>
-
+                  <p class="category">Sandwich</p>
                   <div class="rating-wrapper">
                     <ion-icon name="star"></ion-icon>
                     <ion-icon name="star"></ion-icon>
@@ -653,19 +539,12 @@
                     <ion-icon name="star"></ion-icon>
                   </div>
                 </div>
-
-                <h3 class="h3 card-title">Wendy's Chicken</h3>
-
+                <h3 class="h3 card-title">Club Sandwich</h3>
                 <div class="price-wrapper">
-
                   <p class="price-text">Price:</p>
-
-                  <data class="price" value="49.00">$49.00</data>
-
-                  <del class="del">$69.00</del>
-
+                  <data class="price">$9.99</data>
+                  <del class="del">$12.99</del>
                 </div>
-
               </div>
             </li>
 
@@ -761,15 +640,15 @@
       <section class="section section-divider white testi">
         <div class="container">
 
-          <p class="section-subtitle">Testimonials</p>
+          <p class="section-subtitle">Customer Reviews</p>
 
           <h2 class="h2 section-title">
-            Our Customers <span class="span">Reviews</span>
+            What Our Customers <span class="span">Say</span>
           </h2>
 
           <p class="section-text">
-            Food is any substance consumed to provide nutritional
-            support for an organism.
+            Discover why our customers love our food and service. Read their authentic experiences and join our
+            satisfied customer family.
           </p>
 
           <ul class="testi-list has-scrollbar">
@@ -780,20 +659,21 @@
                 <div class="profile-wrapper">
 
                   <figure class="avatar">
-                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Robert William">
+                    <img src="./assets/images/avatar-1.jpg" width="80" height="80" loading="lazy" alt="Sarah Johnson">
                   </figure>
 
                   <div>
-                    <h3 class="h4 testi-name">Robert William</h3>
+                    <h3 class="h4 testi-name">Sarah Johnson</h3>
 
-                    <p class="testi-title">CEO Kingfisher</p>
+                    <p class="testi-title">Food Blogger</p>
                   </div>
 
                 </div>
 
                 <blockquote class="testi-text">
-                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
-                  product."
+                  "The burgers here are absolutely amazing! The patties are juicy, the buns are perfectly toasted, and
+                  the special sauce is to die for. I've been coming here for years and they never disappoint. The
+                  service is always friendly and quick too!"
                 </blockquote>
 
                 <div class="rating-wrapper">
@@ -813,20 +693,21 @@
                 <div class="profile-wrapper">
 
                   <figure class="avatar">
-                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Thomas Josef">
+                    <img src="./assets/images/avatar-2.jpg" width="80" height="80" loading="lazy" alt="Michael Chen">
                   </figure>
 
                   <div>
-                    <h3 class="h4 testi-name">Thomas Josef</h3>
+                    <h3 class="h4 testi-name">Michael Chen</h3>
 
-                    <p class="testi-title">CEO Getforce</p>
+                    <p class="testi-title">Regular Customer</p>
                   </div>
 
                 </div>
 
                 <blockquote class="testi-text">
-                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
-                  product."
+                  "I love their pizza selection! The crust is perfectly crispy, and the toppings are always fresh. Their
+                  delivery service is incredibly fast, and the food arrives piping hot. Definitely my go-to place for
+                  family dinners!"
                 </blockquote>
 
                 <div class="rating-wrapper">
@@ -846,20 +727,21 @@
                 <div class="profile-wrapper">
 
                   <figure class="avatar">
-                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Charles Richard">
+                    <img src="./assets/images/avatar-3.jpg" width="80" height="80" loading="lazy" alt="Emma Rodriguez">
                   </figure>
 
                   <div>
-                    <h3 class="h4 testi-name">Charles Richard</h3>
+                    <h3 class="h4 testi-name">Emma Rodriguez</h3>
 
-                    <p class="testi-title">CEO Angela</p>
+                    <p class="testi-title">Food Critic</p>
                   </div>
 
                 </div>
 
                 <blockquote class="testi-text">
-                  "I would be lost without restaurant. I would like to personally thank you for your outstanding
-                  product."
+                  "The attention to detail in their dishes is remarkable. From the presentation to the taste, everything
+                  is executed perfectly. Their seasonal menu changes keep me coming back to try new items. A true gem in
+                  the neighborhood!"
                 </blockquote>
 
                 <div class="rating-wrapper">
@@ -870,6 +752,84 @@
                   <ion-icon name="star"></ion-icon>
                 </div>
 
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-7.jpg" alt="Maria Garcia" width="65" height="65" loading="lazy">
+                  </figure>
+                  <div>
+                    <h3 class="testi-name">Maria Garcia</h3>
+                    <p class="testi-title">Culinary Student</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "As a culinary student, I'm always looking for inspiration. This restaurant never fails to amaze me
+                  with their innovative techniques and presentation. The attention to detail in every dish is
+                  remarkable."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-8.jpg" alt="Alex Thompson" width="65" height="65" loading="lazy">
+                  </figure>
+                  <div>
+                    <h3 class="testi-name">Alex Thompson</h3>
+                    <p class="testi-title">Food Photographer</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "The visual presentation of dishes here is absolutely stunning. As a food photographer, I appreciate
+                  how each plate is a work of art. The lighting and ambiance make it perfect for capturing beautiful
+                  food moments."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <figure class="avatar">
+                    <img src="./assets/images/avatar-9.jpg" alt="Lisa Chen" width="65" height="65" loading="lazy">
+                  </figure>
+                  <div>
+                    <h3 class="testi-name">Lisa Chen</h3>
+                    <p class="testi-title">Restaurant Critic</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "The consistency in quality and service is impressive. Every visit feels like a new experience while
+                  maintaining the high standards I've come to expect. Their seasonal menu changes keep me coming back
+                  for more."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
               </div>
             </li>
 
@@ -969,8 +929,6 @@
 
 
 
-
-
       <!-- 
         - #BLOG
       -->
@@ -1005,13 +963,15 @@
                   <div class="card-meta-wrapper">
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                      <ion-icon name="calendar-outline" role="img" class="md hydrated"
+                        aria-label="calendar outline"></ion-icon>
 
                       <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
                     </a>
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="person-outline"></ion-icon>
+                      <ion-icon name="person-outline" role="img" class="md hydrated"
+                        aria-label="person outline"></ion-icon>
 
                       <p class="meta-info">Jonathan Smith</p>
                     </a>
@@ -1029,7 +989,7 @@
                   <a href="#" class="btn-link">
                     <span>Read More</span>
 
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <ion-icon name="arrow-forward" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                   </a>
 
                 </div>
@@ -1052,13 +1012,15 @@
                   <div class="card-meta-wrapper">
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                      <ion-icon name="calendar-outline" role="img" class="md hydrated"
+                        aria-label="calendar outline"></ion-icon>
 
                       <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
                     </a>
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="person-outline"></ion-icon>
+                      <ion-icon name="person-outline" role="img" class="md hydrated"
+                        aria-label="person outline"></ion-icon>
 
                       <p class="meta-info">Jonathan Smith</p>
                     </a>
@@ -1076,7 +1038,7 @@
                   <a href="#" class="btn-link">
                     <span>Read More</span>
 
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <ion-icon name="arrow-forward" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                   </a>
 
                 </div>
@@ -1099,13 +1061,15 @@
                   <div class="card-meta-wrapper">
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="calendar-outline"></ion-icon>
+                      <ion-icon name="calendar-outline" role="img" class="md hydrated"
+                        aria-label="calendar outline"></ion-icon>
 
                       <time class="meta-info" datetime="2022-01-01">Jan 01 2022</time>
                     </a>
 
                     <a href="#" class="card-meta-link">
-                      <ion-icon name="person-outline"></ion-icon>
+                      <ion-icon name="person-outline" role="img" class="md hydrated"
+                        aria-label="person outline"></ion-icon>
 
                       <p class="meta-info">Jonathan Smith</p>
                     </a>
@@ -1123,7 +1087,7 @@
                   <a href="#" class="btn-link">
                     <span>Read More</span>
 
-                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    <ion-icon name="arrow-forward" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
                   </a>
 
                 </div>
@@ -1301,6 +1265,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js" defer></script>
+  <script src="./assets/js/search.js" defer></script>
 
   <!-- 
     - ionicon link
