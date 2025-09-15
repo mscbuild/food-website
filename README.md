@@ -15,7 +15,8 @@ Fresh is a fully responsive fast food website. Responsive for all devices, build
  
 
 ### Demo Screeshots
- <img width="1354" height="607" alt="food" src="https://github.com/user-attachments/assets/dfb7cfe6-1d0f-491f-9672-701a0832d24c" />
+<img width="1350" height="605" alt="fresh" src="https://github.com/user-attachments/assets/da8afb67-191e-44ec-9e62-9e7be8ebb38b" />
+
 
 
  
