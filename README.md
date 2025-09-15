@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/Topic-Github-lighred)
 ![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
-Fresh is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript. Simple navigation and interactive elements ensure a seamless and user-focused experience.
+Fresh is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript. Fresh has a modern and earthy design with a neutral color palette accented by bold imagery. Simple navigation and interactive elements ensure a seamless and user-focused experience.
 <br>
 <a href="https://mscbuild.github.io/food-website/"><strong>➥ Live Demo</strong></a>
  
