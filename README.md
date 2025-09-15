@@ -1,23 +1,17 @@
-<div align="center">
-  
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/foodie)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/foodie?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/foodie?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/5XnX83goEZo?style=social)](https://youtu.be/5XnX83goEZo)
-
-  <br />
-  <br />
-
   <h2 align="center">Foodie - Fast food website</h2>
+![](https://komarev.com/ghpvc/?username=mscbuild) 
+ ![](https://img.shields.io/github/license/mscbuild/food-website) 
+ ![](https://img.shields.io/github/repo-size/mscbuild/food-website)
+![](https://img.shields.io/badge/PRs-Welcome-green)
+![](https://img.shields.io/badge/code%20style-html-green)
+![](https://img.shields.io/github/stars/mscbuild)
+![](https://img.shields.io/badge/Topic-Github-lighred)
+![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
-  Foodie is a fully responsive fast food website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-
-  <a href="https://codewithsadee.github.io/foodie/"><strong>➥ Live Demo</strong></a>
-
-</div>
-
-<br />
+Foodie is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript.
+<br>
+<a href="https://codewithsadee.github.io/foodie/"><strong>➥ Live Demo</strong></a>
+ 
 
 ### Demo Screeshots
  <img width="1354" height="607" alt="food" src="https://github.com/user-attachments/assets/dfb7cfe6-1d0f-491f-9672-701a0832d24c" />
