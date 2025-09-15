@@ -9,7 +9,7 @@
 ![](https://img.shields.io/badge/Topic-Github-lighred)
 ![](https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fmscbuild)
 
-Foodie is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript.
+Fresh is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript.
 <br>
 <a href="https://codewithsadee.github.io/foodie/"><strong>➥ Live Demo</strong></a>
  
@@ -27,7 +27,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Foodie** locally, run this command on your git bash:
+To run **Fresh** locally, run this command on your git bash:
 
 Linux and macOS:
 
