@@ -11,7 +11,7 @@
 
 Fresh is a fully responsive fast food website. Responsive for all devices, build using HTML, CSS, and JavaScript.
 <br>
-<a href="https://codewithsadee.github.io/foodie/"><strong>➥ Live Demo</strong></a>
+<a href="https://mscbuild.github.io/food-website/"><strong>➥ Live Demo</strong></a>
  
 
 ### Demo Screeshots
