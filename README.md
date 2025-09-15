@@ -20,9 +20,9 @@
 <br />
 
 ### Demo Screeshots
+<img width="1296" height="736" alt="image" src="https://github.com/user-attachments/assets/5ba869f5-b52f-4937-a737-81c1894fdd49" />
 
-<img width="1296" height="736" alt="image" src="https://github.com/user-attachments/assets/5b69a919-8027-4689-bb42-ed150c614cbd"  
-
+ 
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
