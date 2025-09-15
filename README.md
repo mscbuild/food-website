@@ -1,4 +1,4 @@
-  <h2 align="center">Foodie - Fast food website</h2>
+  <h2 align="center">Fresh - Fast food website</h2>
   
  ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/food-website) 
