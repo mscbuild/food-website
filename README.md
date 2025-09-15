@@ -1,5 +1,6 @@
   <h2 align="center">Foodie - Fast food website</h2>
-![](https://komarev.com/ghpvc/?username=mscbuild) 
+  
+ ![](https://komarev.com/ghpvc/?username=mscbuild) 
  ![](https://img.shields.io/github/license/mscbuild/food-website) 
  ![](https://img.shields.io/github/repo-size/mscbuild/food-website)
 ![](https://img.shields.io/badge/PRs-Welcome-green)
