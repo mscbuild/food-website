@@ -21,9 +21,7 @@
 
 ### Demo Screeshots
 
-![Foodie Desktop Demo](<<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/235ccae3-0546-4b48-879f-9e2d2cbe9a3c" />
-" />
-")
+![Foodie Desktop Demo](<img width="1296" height="736" alt="image" src="https://github.com/user-attachments/assets/5b69a919-8027-4689-bb42-ed150c614cbd" />")
 
 ### Prerequisites
 
