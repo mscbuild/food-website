@@ -20,7 +20,8 @@
 <br />
 
 ### Demo Screeshots
-<img width="1296" height="736" alt="image" src="https://github.com/user-attachments/assets/5ba869f5-b52f-4937-a737-81c1894fdd49" />
+ <img width="1354" height="607" alt="food" src="https://github.com/user-attachments/assets/dfb7cfe6-1d0f-491f-9672-701a0832d24c" />
+
 
  
 ### Prerequisites
