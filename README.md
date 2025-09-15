@@ -32,18 +32,14 @@ To run **Foodie** locally, run this command on your git bash:
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/foodie.git
+sudo git clone https://github.com/mscbuild/food-website.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/foodie.git
+git clone https://github.com/mscbuild/food-website.git
 ```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
 
 ### License
 
